@@ -5,9 +5,9 @@ import 'package:image_picker/image_picker.dart';
 import 'package:student_record/constants/const.dart';
 import 'package:student_record/controller/student_controller.dart';
 import 'package:student_record/model/model.dart';
-import 'package:student_record/utils/image/imagePicker.dart';
+import 'package:student_record/utils/image/image_picker.dart';
 import 'package:student_record/utils/validation/validation.dart';
-import 'package:student_record/view/edit_page/widgets/form_fields.dart';
+import 'package:student_record/view/update/widgets/form_fields.dart';
 
 // ignore: must_be_immutable
 class Registration extends StatelessWidget {

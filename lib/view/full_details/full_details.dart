@@ -3,8 +3,8 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:student_record/constants/const.dart';
 import 'package:student_record/model/model.dart';
-import 'package:student_record/view/edit_page/edit_details.dart';
 import 'package:student_record/view/full_details/widgets/cards.dart';
+import 'package:student_record/view/update/edit_details.dart';
 
 class FullDetails extends StatelessWidget {
   const FullDetails({super.key, required this.student});

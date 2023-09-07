@@ -2,7 +2,7 @@ import 'dart:ui';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:student_record/constants/const.dart';
-import 'package:student_record/view/add_page/registration.dart';
+import 'package:student_record/view/register/registration.dart';
 import 'package:student_record/view/get_started/widgets/get_started_buttons.dart';
 import 'package:student_record/view/home/main_page.dart';
 

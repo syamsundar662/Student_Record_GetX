@@ -26,6 +26,14 @@ deleteStudent(int id)async{
 
 updateStudent(Student student,int id)async{
  await data.updateTable(student,id);
- getAllStudents();
+ await getAllStudents();
 }
+searchResult(String searchQuery) async {
+    List<Student> list = await data.getData();
+    List<Student> resultList = list
+        .where((student) =>
+            student.name.toLowerCase().contains(searchQuery.toLowerCase()))
+        .toList();
+    studentList.assignAll(resultList);
+  }
 }

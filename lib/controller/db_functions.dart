@@ -54,7 +54,6 @@ class Sql with ChangeNotifier {
             model.name,
             model.age,
             model.phone,
-            model.id,
             model.mail,
             model.image,
             id
